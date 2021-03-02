@@ -1,0 +1,145 @@
+/* gLobal styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: #b6b6b6;
+}
+h2, h3 {
+    text-transform: uppercase;
+}
+
+/* header */
+.header {
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    color: #95E1D3;
+}
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+.nav-menu li {
+    margin-left: 55px;
+    text-transform: uppercase;
+}
+.nav-menu li a {
+    text-decoration: none;
+}
+.nav__link {
+    color:#95E1D3;
+    transition: .2s;
+    padding-bottom: 10px;
+} 
+.nav__link:hover {
+    color: #F38181;
+    border-bottom: 3px solid;
+}
+
+/* main */
+.main {
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+.section-title {
+text-align: center;
+}
+.subtitle {
+    font-family: Kaushan Script;
+    font-size: 24px;
+    line-height: 35px;
+    color: #333333;
+}
+.section-title h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.section-title hr {
+    width: 60px;
+    height: 4px;
+    background: #F38181;
+    margin: 0 auto;
+}
+/* service*/
+.service {
+    margin-top: 70px;
+    margin-bottom: 50spx;
+}
+.service-item ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-item ul li {
+    width: 33.33%;
+    display: flex;
+    margin: 50px 0;
+    padding: 0 35px;
+    align-items: flex-start;
+}
+.service-item img {
+    margin-right: 20px;
+}
+.service-item h3 {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* team */
+.team {
+    margin-bottom: 80px;
+}
+.info {
+    margin-top: 45px;
+    margin-bottom: 30px;
+    line-height: 18px;
+}
+.members {
+    display: flex;
+}
+.member-profile {
+    width: 33.33%;
+    margin-right: 30px;
+    text-align: center;
+}
+.member-profile:last-child {
+    margin-right: 0;
+}
+.member-profile img {
+    width: 100%;
+}
+.member-profile h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+.member-profile p {
+    font-style: italic;
+    font-weight: 300;
+    line-height: 18px;
+}
